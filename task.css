@@ -1,0 +1,57 @@
+.para{
+    background-color: pink;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 800;
+    font-style: italic;
+}
+#text{
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 4px 3px 3px purple;
+    text-align: right;
+}
+.text{
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-shadow:4px 4px 3px green;
+    text-align: left;
+}
+p{ 
+    background:rgb(131,58,180);
+    background:linear-gradient( 90deg, rgb(47, 21, 64) 0%, rgba(253,29,29,1) 50%, rgb(182, 114, 20) 100%);
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-style:italic;
+    margin-left:30px;
+    width:50%;
+    color: wheat;
+}
+h2{
+    background-color: crimson;
+    display: inline;
+}
+.images{
+    display: grid;
+    justify-content: space-between;
+}
+
+.image-left, .image-left-small {
+    width: 50%;
+    height: 250px;
+    border: 2px solid white;
+    box-shadow: 6px 6px black;
+    margin-right: 10px;
+    margin-top: -30px;
+}
+
+.image-left-small {
+    width: 50%;
+}
+
+.image-right {
+    width: 50%;
+    border: 2px solid white;
+    box-shadow: 6px 6px black;  
+    margin-top: -30px; 
+}
